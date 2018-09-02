@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84006C0B2125CFB10066D4B7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84006C0A2125CFB10066D4B7 /* SDWebImage.framework */; };
+		84006C0F2125E4D90066D4B7 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 84006C0E2125E4D80066D4B7 /* card.png */; };
+		84006C112125E9810066D4B7 /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84006C102125E9810066D4B7 /* card2.png */; };
+		842758602120F2F4008319F8 /* ViewControllerPotocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427585F2120F2F4008319F8 /* ViewControllerPotocol.swift */; };
+		845DF6D7212088BE0082587B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DF6D6212088BE0082587B /* Model.swift */; };
+		845DF6D9212089E90082587B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DF6D8212089E90082587B /* Presenter.swift */; };
+		845DF6DB21208A730082587B /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DF6DA21208A730082587B /* Api.swift */; };
+		845DF6DD212091500082587B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DF6DC212091500082587B /* ViewController.swift */; };
+		84624BD021244D3A000A676E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84624BCF21244D39000A676E /* Location.swift */; };
+		84624BD221245B33000A676E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84624BD121245B33000A676E /* SwiftyJSON.framework */; };
+		8473BEF02121AC7300C60FA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8473BEEF2121AC7300C60FA6 /* CoreLocation.framework */; };
+		848003A921249DC7002BFF1A /* MapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848003A821249DC7002BFF1A /* MapViewControllerProtocol.swift */; };
+		849AAC5921205C4400FF036E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC5821205C4400FF036E /* AppDelegate.swift */; };
+		849AAC5E21205C4400FF036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AAC5C21205C4400FF036E /* Main.storyboard */; };
+		849AAC6021205C4900FF036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849AAC5F21205C4900FF036E /* Assets.xcassets */; };
+		849AAC6321205C4900FF036E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AAC6121205C4900FF036E /* LaunchScreen.storyboard */; };
+		849AAC6E21205C4900FF036E /* QurbaTask_NearbyPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC6D21205C4900FF036E /* QurbaTask_NearbyPlacesTests.swift */; };
+		849AAC7921205C4A00FF036E /* QurbaTask_NearbyPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC7821205C4A00FF036E /* QurbaTask_NearbyPlacesUITests.swift */; };
+		849AAC8D21206CB400FF036E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC8C21206CB400FF036E /* CardView.swift */; };
+		849AAC932120784C00FF036E /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC922120784C00FF036E /* ModelProtocol.swift */; };
+		849AAC95212078D000FF036E /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC94212078D000FF036E /* ApiData.swift */; };
+		849AAC97212078F500FF036E /* PresenterPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AAC96212078F500FF036E /* PresenterPro.swift */; };
+		84A3CB9E21230A6900473D53 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3CB9D21230A6900473D53 /* MapViewController.swift */; };
+		84A8F34B2120A1A000922BDE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8F34A2120A1A000922BDE /* Alamofire.framework */; };
+		C531D183C7B05070DB17E171 /* Pods_QurbaTask_NearbyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BBD7269315E2DB40E2625A /* Pods_QurbaTask_NearbyPlaces.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849AAC6A21205C4900FF036E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849AAC4D21205C4400FF036E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849AAC5421205C4400FF036E;
+			remoteInfo = QurbaTask_NearbyPlaces;
+		};
+		849AAC7521205C4900FF036E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849AAC4D21205C4400FF036E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849AAC5421205C4400FF036E;
+			remoteInfo = QurbaTask_NearbyPlaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386E87670D0BB00A623EA3CA /* Pods_QurbaTask_NearbyPlaces_QurbaTask_NearbyPlacesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QurbaTask_NearbyPlaces_QurbaTask_NearbyPlacesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84006C0A2125CFB10066D4B7 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84006C0E2125E4D80066D4B7 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card.png; path = ../../../../../Downloads/card.png; sourceTree = "<group>"; };
+		84006C102125E9810066D4B7 /* card2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card2.png; path = ../../../../../Downloads/card2.png; sourceTree = "<group>"; };
+		8427585F2120F2F4008319F8 /* ViewControllerPotocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPotocol.swift; sourceTree = "<group>"; };
+		845DF6D6212088BE0082587B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		845DF6D8212089E90082587B /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		845DF6DA21208A730082587B /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		845DF6DC212091500082587B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84624BCF21244D39000A676E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84624BD121245B33000A676E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8473BEEF2121AC7300C60FA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8479263521209ECC000B7481 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8479263721209F15000B7481 /* Pods_QurbaTask_NearbyPlaces_QurbaTask_NearbyPlacesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_QurbaTask_NearbyPlaces_QurbaTask_NearbyPlacesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		848003A821249DC7002BFF1A /* MapViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerProtocol.swift; sourceTree = "<group>"; };
+		849AAC5521205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QurbaTask_NearbyPlaces_Resturants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849AAC5821205C4400FF036E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849AAC5D21205C4400FF036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849AAC5F21205C4900FF036E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849AAC6221205C4900FF036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849AAC6421205C4900FF036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849AAC6921205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QurbaTask_NearbyPlaces_ResturantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849AAC6D21205C4900FF036E /* QurbaTask_NearbyPlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QurbaTask_NearbyPlacesTests.swift; sourceTree = "<group>"; };
+		849AAC6F21205C4900FF036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849AAC7421205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QurbaTask_NearbyPlaces_ResturantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849AAC7821205C4A00FF036E /* QurbaTask_NearbyPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QurbaTask_NearbyPlacesUITests.swift; sourceTree = "<group>"; };
+		849AAC7A21205C4A00FF036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849AAC8C21206CB400FF036E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		849AAC922120784C00FF036E /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		849AAC94212078D000FF036E /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		849AAC96212078F500FF036E /* PresenterPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterPro.swift; sourceTree = "<group>"; };
+		84A3CB9D21230A6900473D53 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		84A8F34A2120A1A000922BDE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BBD7269315E2DB40E2625A /* Pods_QurbaTask_NearbyPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QurbaTask_NearbyPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEB24725581732BD7A04A4C /* Pods-QurbaTask_NearbyPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QurbaTask_NearbyPlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QurbaTask_NearbyPlaces/Pods-QurbaTask_NearbyPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		F3BCF975B4B0C2E112B066DB /* Pods-QurbaTask_NearbyPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QurbaTask_NearbyPlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-QurbaTask_NearbyPlaces/Pods-QurbaTask_NearbyPlaces.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849AAC5221205C4400FF036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84006C0B2125CFB10066D4B7 /* SDWebImage.framework in Frameworks */,
+				84624BD221245B33000A676E /* SwiftyJSON.framework in Frameworks */,
+				8473BEF02121AC7300C60FA6 /* CoreLocation.framework in Frameworks */,
+				84A8F34B2120A1A000922BDE /* Alamofire.framework in Frameworks */,
+				C531D183C7B05070DB17E171 /* Pods_QurbaTask_NearbyPlaces.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849AAC6621205C4900FF036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849AAC7121205C4900FF036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE1B87FA22C6518770502E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB24725581732BD7A04A4C /* Pods-QurbaTask_NearbyPlaces.debug.xcconfig */,
+				F3BCF975B4B0C2E112B066DB /* Pods-QurbaTask_NearbyPlaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84624BCE21244A00000A676E /* Pojo */ = {
+			isa = PBXGroup;
+			children = (
+				84624BCF21244D39000A676E /* Location.swift */,
+			);
+			path = Pojo;
+			sourceTree = "<group>";
+		};
+		849AAC4C21205C4400FF036E = {
+			isa = PBXGroup;
+			children = (
+				849AAC5721205C4400FF036E /* NearbyPlaces_Resturants */,
+				849AAC6C21205C4900FF036E /* NearbyPlaces_ResturantsTests */,
+				849AAC7721205C4900FF036E /* NearbyPlaces_ResturantsUITests */,
+				849AAC5621205C4400FF036E /* Products */,
+				2AE1B87FA22C6518770502E1 /* Pods */,
+				DA2574776B75F06A16420947 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		849AAC5621205C4400FF036E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849AAC5521205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants.app */,
+				849AAC6921205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsTests.xctest */,
+				849AAC7421205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849AAC5721205C4400FF036E /* NearbyPlaces_Resturants */ = {
+			isa = PBXGroup;
+			children = (
+				84624BCE21244A00000A676E /* Pojo */,
+				849AAC912120778400FF036E /* Protocols */,
+				849AAC8921205D4B00FF036E /* Model */,
+				849AAC8821205D2A00FF036E /* Views */,
+				849AAC8721205D0100FF036E /* Main View Presenter */,
+				849AAC8621205CAA00FF036E /* Main Netwrok Controllers */,
+				849AAC5821205C4400FF036E /* AppDelegate.swift */,
+				849AAC5C21205C4400FF036E /* Main.storyboard */,
+				849AAC5F21205C4900FF036E /* Assets.xcassets */,
+				84006C102125E9810066D4B7 /* card2.png */,
+				84006C0E2125E4D80066D4B7 /* card.png */,
+				849AAC6121205C4900FF036E /* LaunchScreen.storyboard */,
+				849AAC6421205C4900FF036E /* Info.plist */,
+			);
+			path = NearbyPlaces_Resturants;
+			sourceTree = "<group>";
+		};
+		849AAC6C21205C4900FF036E /* NearbyPlaces_ResturantsTests */ = {
+			isa = PBXGroup;
+			children = (
+				849AAC6D21205C4900FF036E /* QurbaTask_NearbyPlacesTests.swift */,
+				849AAC6F21205C4900FF036E /* Info.plist */,
+			);
+			path = NearbyPlaces_ResturantsTests;
+			sourceTree = "<group>";
+		};
+		849AAC7721205C4900FF036E /* NearbyPlaces_ResturantsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849AAC7821205C4A00FF036E /* QurbaTask_NearbyPlacesUITests.swift */,
+				849AAC7A21205C4A00FF036E /* Info.plist */,
+			);
+			path = NearbyPlaces_ResturantsUITests;
+			sourceTree = "<group>";
+		};
+		849AAC8621205CAA00FF036E /* Main Netwrok Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				845DF6DA21208A730082587B /* Api.swift */,
+			);
+			path = "Main Netwrok Controllers";
+			sourceTree = "<group>";
+		};
+		849AAC8721205D0100FF036E /* Main View Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				845DF6D8212089E90082587B /* Presenter.swift */,
+			);
+			path = "Main View Presenter";
+			sourceTree = "<group>";
+		};
+		849AAC8821205D2A00FF036E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				849AAC8C21206CB400FF036E /* CardView.swift */,
+				845DF6DC212091500082587B /* ViewController.swift */,
+				84A3CB9D21230A6900473D53 /* MapViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		849AAC8921205D4B00FF036E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845DF6D6212088BE0082587B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		849AAC912120778400FF036E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				849AAC922120784C00FF036E /* ModelProtocol.swift */,
+				849AAC94212078D000FF036E /* ApiData.swift */,
+				849AAC96212078F500FF036E /* PresenterPro.swift */,
+				8427585F2120F2F4008319F8 /* ViewControllerPotocol.swift */,
+				848003A821249DC7002BFF1A /* MapViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DA2574776B75F06A16420947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84006C0A2125CFB10066D4B7 /* SDWebImage.framework */,
+				84624BD121245B33000A676E /* SwiftyJSON.framework */,
+				8473BEEF2121AC7300C60FA6 /* CoreLocation.framework */,
+				84A8F34A2120A1A000922BDE /* Alamofire.framework */,
+				8479263721209F15000B7481 /* Pods_QurbaTask_NearbyPlaces_QurbaTask_NearbyPlacesTests.framework */,
+				8479263521209ECC000B7481 /* Alamofire.framework */,
+				A4BBD7269315E2DB40E2625A /* Pods_QurbaTask_NearbyPlaces.framework */,
+				386E87670D0BB00A623EA3CA /* Pods_QurbaTask_NearbyPlaces_QurbaTask_NearbyPlacesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849AAC5421205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849AAC7D21205C4A00FF036E /* Build configuration list for PBXNativeTarget "QurbaTask_NearbyPlaces_Resturants" */;
+			buildPhases = (
+				71F73A07E71F08B5DEEF24FC /* [CP] Check Pods Manifest.lock */,
+				849AAC5121205C4400FF036E /* Sources */,
+				849AAC5221205C4400FF036E /* Frameworks */,
+				849AAC5321205C4400FF036E /* Resources */,
+				2D9E047A1858F7143EEA10AE /* [CP] Embed Pods Frameworks */,
+				3E770C83EE8E363BB87E8ACE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QurbaTask_NearbyPlaces_Resturants;
+			productName = QurbaTask_NearbyPlaces;
+			productReference = 849AAC5521205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849AAC6821205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849AAC8021205C4A00FF036E /* Build configuration list for PBXNativeTarget "QurbaTask_NearbyPlaces_ResturantsTests" */;
+			buildPhases = (
+				849AAC6521205C4900FF036E /* Sources */,
+				849AAC6621205C4900FF036E /* Frameworks */,
+				849AAC6721205C4900FF036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849AAC6B21205C4900FF036E /* PBXTargetDependency */,
+			);
+			name = QurbaTask_NearbyPlaces_ResturantsTests;
+			productName = QurbaTask_NearbyPlacesTests;
+			productReference = 849AAC6921205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849AAC7321205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849AAC8321205C4A00FF036E /* Build configuration list for PBXNativeTarget "QurbaTask_NearbyPlaces_ResturantsUITests" */;
+			buildPhases = (
+				849AAC7021205C4900FF036E /* Sources */,
+				849AAC7121205C4900FF036E /* Frameworks */,
+				849AAC7221205C4900FF036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849AAC7621205C4900FF036E /* PBXTargetDependency */,
+			);
+			name = QurbaTask_NearbyPlaces_ResturantsUITests;
+			productName = QurbaTask_NearbyPlacesUITests;
+			productReference = 849AAC7421205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849AAC4D21205C4400FF036E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					849AAC5421205C4400FF036E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					849AAC6821205C4900FF036E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 849AAC5421205C4400FF036E;
+					};
+					849AAC7321205C4900FF036E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 849AAC5421205C4400FF036E;
+					};
+				};
+			};
+			buildConfigurationList = 849AAC5021205C4400FF036E /* Build configuration list for PBXProject "NearbyPlaces_Resturants" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849AAC4C21205C4400FF036E;
+			productRefGroup = 849AAC5621205C4400FF036E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849AAC5421205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants */,
+				849AAC6821205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsTests */,
+				849AAC7321205C4900FF036E /* QurbaTask_NearbyPlaces_ResturantsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849AAC5321205C4400FF036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849AAC6321205C4900FF036E /* LaunchScreen.storyboard in Resources */,
+				84006C112125E9810066D4B7 /* card2.png in Resources */,
+				84006C0F2125E4D90066D4B7 /* card.png in Resources */,
+				849AAC6021205C4900FF036E /* Assets.xcassets in Resources */,
+				849AAC5E21205C4400FF036E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849AAC6721205C4900FF036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849AAC7221205C4900FF036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9E047A1858F7143EEA10AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QurbaTask_NearbyPlaces/Pods-QurbaTask_NearbyPlaces-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QurbaTask_NearbyPlaces/Pods-QurbaTask_NearbyPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E770C83EE8E363BB87E8ACE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QurbaTask_NearbyPlaces/Pods-QurbaTask_NearbyPlaces-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QurbaTask_NearbyPlaces/Pods-QurbaTask_NearbyPlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71F73A07E71F08B5DEEF24FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QurbaTask_NearbyPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849AAC5121205C4400FF036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3CB9E21230A6900473D53 /* MapViewController.swift in Sources */,
+				845DF6DB21208A730082587B /* Api.swift in Sources */,
+				848003A921249DC7002BFF1A /* MapViewControllerProtocol.swift in Sources */,
+				845DF6D7212088BE0082587B /* Model.swift in Sources */,
+				849AAC97212078F500FF036E /* PresenterPro.swift in Sources */,
+				842758602120F2F4008319F8 /* ViewControllerPotocol.swift in Sources */,
+				845DF6DD212091500082587B /* ViewController.swift in Sources */,
+				845DF6D9212089E90082587B /* Presenter.swift in Sources */,
+				849AAC95212078D000FF036E /* ApiData.swift in Sources */,
+				849AAC932120784C00FF036E /* ModelProtocol.swift in Sources */,
+				849AAC8D21206CB400FF036E /* CardView.swift in Sources */,
+				84624BD021244D3A000A676E /* Location.swift in Sources */,
+				849AAC5921205C4400FF036E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849AAC6521205C4900FF036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849AAC6E21205C4900FF036E /* QurbaTask_NearbyPlacesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849AAC7021205C4900FF036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849AAC7921205C4A00FF036E /* QurbaTask_NearbyPlacesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849AAC6B21205C4900FF036E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849AAC5421205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants */;
+			targetProxy = 849AAC6A21205C4900FF036E /* PBXContainerItemProxy */;
+		};
+		849AAC7621205C4900FF036E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849AAC5421205C4400FF036E /* QurbaTask_NearbyPlaces_Resturants */;
+			targetProxy = 849AAC7521205C4900FF036E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849AAC5C21205C4400FF036E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849AAC5D21205C4400FF036E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849AAC6121205C4900FF036E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849AAC6221205C4900FF036E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849AAC7B21205C4A00FF036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849AAC7C21205C4A00FF036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849AAC7E21205C4A00FF036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEB24725581732BD7A04A4C /* Pods-QurbaTask_NearbyPlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NearbyPlaces_Resturants/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.QurbaTask-NearbyPlaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849AAC7F21205C4A00FF036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BCF975B4B0C2E112B066DB /* Pods-QurbaTask_NearbyPlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NearbyPlaces_Resturants/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.QurbaTask-NearbyPlaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849AAC8121205C4A00FF036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QurbaTask_NearbyPlacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.QurbaTask-NearbyPlacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QurbaTask_NearbyPlaces_Resturants.app/QurbaTask_NearbyPlaces_Resturants";
+			};
+			name = Debug;
+		};
+		849AAC8221205C4A00FF036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QurbaTask_NearbyPlacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.QurbaTask-NearbyPlacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QurbaTask_NearbyPlaces_Resturants.app/QurbaTask_NearbyPlaces_Resturants";
+			};
+			name = Release;
+		};
+		849AAC8421205C4A00FF036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QurbaTask_NearbyPlacesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.QurbaTask-NearbyPlacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QurbaTask_NearbyPlaces;
+			};
+			name = Debug;
+		};
+		849AAC8521205C4A00FF036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QurbaTask_NearbyPlacesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.QurbaTask-NearbyPlacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QurbaTask_NearbyPlaces;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849AAC5021205C4400FF036E /* Build configuration list for PBXProject "NearbyPlaces_Resturants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849AAC7B21205C4A00FF036E /* Debug */,
+				849AAC7C21205C4A00FF036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849AAC7D21205C4A00FF036E /* Build configuration list for PBXNativeTarget "QurbaTask_NearbyPlaces_Resturants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849AAC7E21205C4A00FF036E /* Debug */,
+				849AAC7F21205C4A00FF036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849AAC8021205C4A00FF036E /* Build configuration list for PBXNativeTarget "QurbaTask_NearbyPlaces_ResturantsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849AAC8121205C4A00FF036E /* Debug */,
+				849AAC8221205C4A00FF036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849AAC8321205C4A00FF036E /* Build configuration list for PBXNativeTarget "QurbaTask_NearbyPlaces_ResturantsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849AAC8421205C4A00FF036E /* Debug */,
+				849AAC8521205C4A00FF036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849AAC4D21205C4400FF036E /* Project object */;
+}
